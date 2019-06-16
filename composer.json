@@ -1,0 +1,19 @@
+{
+  "name": "featdd/html-term-wrapper",
+  "description": "Parse html for terms and call a wrapper closure function",
+  "homepage": "https://featdd.de",
+  "license": [
+    "MIT"
+  ],
+  "require": {
+    "php": "^7.2",
+    "ext-dom": "*",
+    "ext-libxml": "*",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Featdd\\HtmlTermWrapper\\": "src"
+    }
+  }
+}
